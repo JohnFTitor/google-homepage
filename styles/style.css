@@ -1,9 +1,13 @@
 
 ul {
     display: flex;
-    justify-content: flex-end;
     align-items: center;
     padding: 20px 20px 20px 10px;
+    flex-wrap: wrap;
+}
+
+header ul {
+    justify-content: flex-end;
 }
 
 a {
@@ -35,7 +39,6 @@ main {
 }
 
 
-
 form {
     grid-area: form;
     width: auto;
@@ -50,7 +53,30 @@ footer {
     grid-area: footer;
 }
 
+ul p {
+    margin-left: 30px;
+}
+
+footer a {
+    margin-left: 30px;
+}
+
+#footer-nav {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    text-align: center;
+}
+
+@media(max-width: 900px) {
+    #footer-nav {
+        justify-content: space-around;
+    }
+}
+
 #search-icon { 
     color: rgba(154, 160, 166, 1);
 }
+
+
 
