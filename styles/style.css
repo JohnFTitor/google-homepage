@@ -1,5 +1,6 @@
 
 html {
+    font-family: Arial, sans-serif;
     font-size: 10px;
 }
 
@@ -47,7 +48,7 @@ main {
 form {
     grid-area: form;
     width: auto;
-    height:73%;
+    height: 55rem;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -55,11 +56,15 @@ form {
 }
 
 form input {
-    width: 55rem;
+    font-size: 1.6rem;
+    width: 58rem;
     box-sizing: border-box;
-    padding: 13px 40px;
+    padding: 13px 45px;
     border: 1px solid black;
     border-radius: 30px;
+    background: url(../icons/search_icon.svg) no-repeat;
+    background-position: 15px 70%;
+    margin-bottom: 20px; 
 }
 
 form input:focus-visible {
@@ -67,7 +72,7 @@ form input:focus-visible {
 }
 
 form img {
-    margin-bottom: 30px;
+    margin-bottom: 28px;
 }
 
 footer {
