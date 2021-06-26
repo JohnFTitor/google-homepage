@@ -28,6 +28,7 @@ a {
     color: black;
     box-sizing: border-box;
     padding: 10px;
+    color: rgba(0,0,0,0.87);
 }
 
 body {
@@ -52,6 +53,9 @@ main {
     grid-template-rows: 1fr auto;
 }
 
+.material-icons {
+    color: #5f6368;
+}
 
 form {
     grid-area: form;
@@ -68,10 +72,10 @@ form input {
     width: 58rem;
     box-sizing: border-box;
     padding: 13px 45px;
-    border: 1px solid black;
+    border: 1px solid #dfe1e5;
     border-radius: 30px;
     background: url(../icons/search_icon.svg) no-repeat;
-    background-position: 15px 70%;
+    background-position: 15px 60%;
     margin-bottom: 30px; 
 }
 
@@ -90,7 +94,7 @@ input[type="search"]::-webkit-search-cancel-button {
   }
   
   input[type="search"]:focus::-webkit-search-cancel-button {
-    opacity: 0.6;
+    opacity: 1;
     pointer-events: all;
   }
   
@@ -104,11 +108,22 @@ form img {
 }
 
 form button {
-    font-size: 1.5rem;
+    font-size: 1.4rem;
+    background-color: #f8f9fa;
+    border: 1px solid #f8f9fa;
     padding: 10px;
     margin-right: 10px;
     border-radius: 3px;
     margin-bottom: 30px;
+    color: #3c4043;
+}
+
+form p {
+    color: #202124;
+}
+
+form a {
+    color: #1a0dab;
 }
 
 form p, form a {
@@ -124,7 +139,13 @@ footer {
     display: grid;
     grid-template: "Place"
                    "Google";
-    grid-template-rows: auto auto;               
+    grid-template-rows: auto auto;
+    color: #70757a;            
+    background-color: #f2f2f2;   
+}
+
+footer a {
+    color: #70757a;  
 }
 
 #places {
@@ -136,10 +157,12 @@ footer {
 }
 
 ul p {
-    margin-left: 30px;
+    display: block;
+    padding: 10px 10px 10px 30px;
 }
 
 #footer-nav {
+    border-top: 1px solid #dadce0;
     grid-area: Google;
     display: flex;
     justify-content: space-around;
