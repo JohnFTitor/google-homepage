@@ -79,6 +79,22 @@ input[type="search" i]::-webkit-search-cancel-button {
     cursor: pointer;
 }
 
+input[type="search"]::-webkit-search-cancel-button {
+    -webkit-appearance: none;
+    height: 2.5rem;
+    width: 2.5rem;
+    background: url(../icons/clear_icon.svg) no-repeat 50% 50%;
+    background-size: contain;
+    opacity: 0;
+    pointer-events: none;
+  }
+  
+  input[type="search"]:focus::-webkit-search-cancel-button {
+    opacity: 0.6;
+    pointer-events: all;
+  }
+  
+
 form input:focus-visible {
     outline: none;
 }
