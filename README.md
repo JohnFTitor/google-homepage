@@ -6,5 +6,7 @@ The project I'm about to build is, as the name stands, a non-functional google h
 
 24/06/2021: All the base CSS structure of the page has been set, the only thing left is to add the special styling (colors, when :hover, etc) to the page. One note to take into account, don't work in the CSS unless you have already set all (or almost all) of the HTML, at least for me it was the case in this project. An don't be way to perfeccionist during the bulding process. This notes are more for myself. 
 
+25/06/2021: Final setup of the project. Somethings needed to be adjusted, like the padding of some objects, font-sizes, colors, overflow and screen response. It was quite interesting how to edit the cancel button in the search bar (Though its funcionality could be better) based in editing the webkit background with the svg image required. Now all that's left is to add the microphone to the search bar and the shadow boxes of the objects when hover. Almost done.
+
 
 
