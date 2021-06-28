@@ -8,5 +8,7 @@ The project I'm about to build is, as the name stands, a non-functional google h
 
 25/06/2021: Final setup of the project. Somethings needed to be adjusted, like the padding of some objects, font-sizes, colors, overflow and screen response. It was quite interesting how to edit the cancel button in the search bar (Though its funcionality could be better) based in editing the webkit background with the svg image required. Now all that's left is to add the microphone to the search bar and the shadow boxes of the objects when hover. Almost done.
 
+28/06/2021: Comming back after weekend. Version 1.0 of the project is now completed, with some of the shadow boxes and similar icons to google homepage. It's not exactly the same, but for the exercise it looks alike. I might come back to improve this later. 
+
 
 

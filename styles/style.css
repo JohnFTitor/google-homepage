@@ -90,6 +90,7 @@ form input {
     background-position: 15px 60%;
     margin-bottom: 30px; 
     color: rgba(0,0,0,.87);
+    margin-left: 50px;
 }
 
 input[type="search" i]::-webkit-search-cancel-button {
@@ -110,8 +111,6 @@ input[type="search"]:focus::-webkit-search-cancel-button {
     opacity: 1;
     pointer-events: all;
 }
-
-
 
 #mic {
     position: relative;
@@ -146,6 +145,12 @@ form button {
     border-radius: 3px;
     margin-bottom: 30px;
     color: #3c4043;
+}
+
+form button:hover {
+    color: #202124;
+    border: 1px solid #dadce0;
+    cursor: pointer;
 }
 
 form p {
@@ -207,7 +212,7 @@ ul p {
     }
 }
 
-@media(max-width: 600px) {
+@media(max-width: 700px) {
     form input {
         width: 90%;
     }
