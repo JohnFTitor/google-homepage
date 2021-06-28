@@ -31,6 +31,10 @@ a {
     color: rgba(0,0,0,0.87);
 }
 
+a:hover {
+    text-decoration: underline;
+}
+
 body {
     display: grid;
     grid-template-areas: 
@@ -67,6 +71,13 @@ form {
     justify-content: center;
 }
 
+form div {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: auto;
+}
+
 form input {
     font-size: 1.6rem;
     width: 58rem;
@@ -94,11 +105,23 @@ input[type="search"]::-webkit-search-cancel-button {
     pointer-events: none;
   }
   
-  input[type="search"]:focus::-webkit-search-cancel-button {
+input[type="search"]:focus::-webkit-search-cancel-button {
     opacity: 1;
     pointer-events: all;
-  }
-  
+}
+
+
+
+#mic {
+    position: relative;
+    right: 50px;
+    background-color: inherit;
+    border: none;
+}
+
+#mic:hover {
+    cursor: pointer;
+}
 
 form input:focus-visible {
     outline: none;
@@ -172,6 +195,12 @@ ul p {
 }
 
 
+@media(min-width: 1000px) {
+    #footer-nav {
+        justify-content: space-between;
+    }
+}
+
 @media(max-width: 600px) {
     form input {
         width: 90%;
@@ -187,6 +216,7 @@ ul p {
 @media(max-height: 800px) {
     form {
         height: 100%;
+        margin-bottom: 70px;
     }
 }
 
